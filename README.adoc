@@ -1,5 +1,9 @@
 = Spring Boot Ehcache second-level cache
 
+*UPDATE*: This issue was present in Spring Boot `2.0.2.RELEASE` onwards and is fixed in `2.0.5.RELEASE` - see  https://github.com/spring-projects/spring-boot/issues/14181[gh-14181].
+
+'''
+
 This is a minimal project that demonstrates the startup issue when Ehcache is used as Hibernate second-level in a Spring Boot `2.0.4.RELEASE` based application.
 
 Key ingredients:
